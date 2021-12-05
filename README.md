@@ -1,5 +1,4 @@
 # Spiral Community
 
-**:link LINK :**
-
-http://community.spiraldesign.org/
+🔗 **Community Website :**
+- http://community.spiraldesign.org/
