@@ -1,0 +1,289 @@
+@font-face {
+font-family:iransans;
+src:url(../font/iransans.ttf)
+}
+
+@font-face {
+font-family:iransanslight;
+src:url(../font/iransanslight.ttf)
+}
+
+@font-face {
+font-family:iransansmedium;
+src:url(../font/iransansmedium.ttf)
+}
+
+.iransans {
+font-family:iransans
+}
+
+.iransanslight {
+font-family:iransanslight
+}
+
+.iransansmedium {
+font-family:iransansmedium
+}
+
+.gold-color {
+color:#b39d50!important
+}
+
+.gold-bg {
+background:#b39d50!important
+}
+
+.blue-color {
+color:#0e103c!important
+}
+
+.blue-bg {
+background:#0e103c!important
+}
+
+html,body {
+margin:0;
+direction:rtl
+}
+
+img {
+max-width:100%;
+object-fit:cover
+}
+
+a {
+text-decoration:none
+}
+
+* {
+box-sizing:border-box
+}
+
+.float-right {
+float:right!important
+}
+
+.float-left {
+float:left!important
+}
+
+.border-bottom-left-radius {
+border-bottom-left-radius:30%
+}
+
+.border-bottom-right-radius {
+border-bottom-right-radius:30%
+}
+
+.border-top-left-radius {
+border-top-left-radius:30%
+}
+
+.border-top-right-radius {
+border-top-right-radius:30%
+}
+
+.header {
+width:95%;
+margin:auto;
+padding:30px
+}
+
+.slidebox,.title-box,.hotel-box,.product-box,.article-box {
+width:90%;
+margin:auto;
+padding:30px
+}
+
+.header .logo .logo-type {
+padding-top:13px
+}
+
+.slidebox div {
+padding:0
+}
+
+.slidebox .slidebox-image-box .slidebox-img {
+border:5px solid #b39d50
+}
+
+.slidebox .slidebox-content-box {
+height:500px;
+padding:50px 30px
+}
+
+.slidebox .slidebox-content-box .display-4 {
+font-size:40px
+}
+
+.slidebox .slidebox-content-box p {
+font-size:23px;
+font-weight:400
+}
+
+.slidebox .slidebox-content-box .homa-btn {
+border:3px solid #0e103c;
+padding:10px 20px;
+text-decoration:none
+}
+
+.slidebox .pattern {
+background:url(img/pattern.png) no-repeat;
+height:150px;
+float:left!important;
+text-align:left;
+top:0;
+left:0;
+width:150px;
+background-size:contain;
+clear:both;
+margin-bottom:-130px;
+margin-left:-15px
+}
+
+.title-box {
+margin-top:50px
+}
+
+.hotel-box .hotel-box-div {
+padding:20px;
+z-index:2
+}
+
+.hotel-box .hotel-box-image {
+height:400px;
+border:5px solid #b39d50
+}
+
+.hotel-box .hotel-box-div h3 {
+margin:20px auto;
+font-size:25px
+}
+
+.hotel-box .pattern {
+background:url(img/pattern.png) no-repeat;
+height:150px;
+float:right!important;
+text-align:right;
+top:0;
+left:0;
+width:150px;
+background-size:contain;
+clear:both;
+margin-top:-210px;
+margin-right:-20px;
+z-index:0
+}
+
+.product-box .row {
+margin-bottom:150px!important
+}
+
+.product-box .row img {
+border:5px solid #b39d50;
+height:400px
+}
+
+.product-box .product-box-content {
+line-height:30px;
+height:400px;
+font-weight:300
+}
+
+.product-box .pattern {
+background:url(img/pattern.png) no-repeat;
+height:150px;
+float:left!important;
+text-align:left;
+top:0;
+left:0;
+width:150px;
+background-size:contain;
+clear:both;
+margin-top:-290px
+}
+
+.title-box a {
+text-decoration:none
+}
+
+.article-box img {
+border:5px solid #b39d50;
+height:300px;
+width:100%
+}
+
+.article-box * {
+font-size:22px;
+line-height:35px
+}
+
+.article-box a {
+text-decoration:none;
+padding:20px;
+box-sizing:border-box;
+display:block
+}
+
+.cooperate-box {
+text-align:center
+}
+
+.cooperate-box img {
+height:150px;
+object-fit:fill
+}
+
+.footer-content {
+margin-top:100px;
+min-height:500px;
+margin-bottom:-30px;
+color:#fff;
+border-top-left-radius:120px;
+border-top-right-radius:120px;
+padding:50px
+}
+
+.footer-content ul {
+list-style:none;
+padding:0;
+margin:0
+}
+
+.footer-content ul li {
+margin-bottom:20px
+}
+
+.footer-content ul li a {
+color:#fff;
+text-decoration:none
+}
+
+.footer-content h5 {
+margin-bottom:50px
+}
+
+.footer-content p {
+line-height:40px;
+margin:0
+}
+
+.footer-content input[type="submit"] {
+font-size:25px;
+color:#fff;
+background:transparent;
+border:none
+}
+
+.footer-content input[type="text"],.footer-content textarea {
+border:none;
+resize:none;
+outline:none
+}
+
+.footer-content select {
+padding:10px 0;
+color:#b39d50;
+outline:none;
+border:none
+}
