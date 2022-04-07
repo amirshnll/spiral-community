@@ -1,0 +1,34 @@
+@font-face {
+font-family:yekanbakh;
+src:url(font/yekanbakh.WOFF)
+}
+
+.yekanbakh {
+font-family:yekanbakh
+}
+
+html,body {
+margin:0;
+direction:rtl
+}
+
+img {
+max-width:100%;
+object-fit:cover
+}
+
+a {
+text-decoration:none
+}
+
+* {
+box-sizing:border-box
+}
+
+.float-right {
+float:right!important
+}
+
+.float-left {
+float:left!important
+}
