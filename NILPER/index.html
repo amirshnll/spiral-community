@@ -1,21 +1,323 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>نیلپر</title>
 
-	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="assets/layout.css" />
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-grid.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css" />
+<head>
+    <title>نیلپر</title>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="assets/layout.css" />
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css" />
 </head>
+
 <body class="yekanbakh" dir="rtl">
 
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-5">
+                    <div class="top-square red-bg"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-5">
+                    <img src="assets/img/logo.png" title="نیلپر" class="img-fluid" alt="نیلپر" />
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-7">
+                    <div class="header-menu">
+                        <nav class="navbar">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-decoration-none gray-color" href="#" title="صفحه اصلی">صفحه اصلی</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-decoration-none gray-color" href="#" title="درباره ما">درباره ما</a></li>
+                                <li class="nav-item"><a class="nav-link text-decoration-none active red-color" href="#" title="محصولات">محصولات</a></li>
+                                <li class="nav-item"><a class="nav-link text-decoration-none gray-color" href="#" title="شعب و نمایندگی ها">شعب و نمایندگی ها</a></li>
+                                <li class="nav-item"><a class="nav-link text-decoration-none gray-color" href="#" title="لیست قیمت و کاتالوگها">لیست قیمت و کاتالوگها</a></li>
+                                <li class="nav-item"><a class="nav-link text-decoration-none gray-color" href="#" title="اخبار">اخبار</a></li>
+                                <li class="nav-item"><a class="nav-link text-decoration-none gray-color" href="#" title="تماس با ما">تماس با ما</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 header-left">
+                    <input class="d-inline float-right" type="text" placeholder="جستجو..." name="q" />
+                    <i class="fa-solid fa-magnifying-glass magnifying"></i>
+                    <nav class="navbar d-inline">
+                        <ul class="nav header-left-icon float-left">
+                            <li class="nav-item gray-color">EN</li>
+                            <li class="nav-item gray-color"><i class="fa-regular fa-user"></i></li>
+                            <li class="border-none">|</li>
+                            <li class="nav-item gray-color border-none shopping-bags"><i class="fa-solid fa-cart-shopping"></i></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 
-	
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+                    <img class="img-fluid top-hero" src="assets/img/top-hero.png" title="نیلپر" alt="نیلپر" />
+                </div>
+                <div class="slogan-site col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                    <img class="img-fluid top-hero" src="assets/img/slogan.png" title="شعار" alt="شعار" />
+                    <div class="slogan-button">
+                        <div> محصولات تخفیف خورده</div>
+                        <div>بازدید</div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </section>
 
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <section>
+        <div class="container-fluid">
+            <div class="product-category">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <h5 class="text-center">دسته بندی محصولات</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 product-category-items">
+                        <div class="product-category-item">
+                            <img src="assets/img/product4.png" class="img-fluid" title="محصول" alt="محصول" />
+                            <p class="text-center red-color">مبلمان اداری</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 product-category-items">
+                        <div class="product-category-item">
+                            <img src="assets/img/product3.png" class="img-fluid" title="محصول" alt="محصول" />
+                            <p class="text-center red-color">مبل کودک</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 product-category-items">
+                        <div class="product-category-item">
+                            <img src="assets/img/product2.png" class="img-fluid" title="محصول" alt="محصول" />
+                            <p class="text-center red-color">میز ناهارخوری</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 product-category-items">
+                        <div class="product-category-item">
+                            <img src="assets/img/product1.png" class="img-fluid" title="محصول" alt="محصول" />
+                            <p class="text-center red-color">مبلمان</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-left">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-left">
+                        <p class="text-left float-left product-category-more"><a href="#" class="gray-color text-decoration-none text-left" title="دسته های بیشتر">دسته های بیشتر <i class="fa-solid fa-chevron-down"></i></a></p>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid red-bg">
+            <div class="product-popular">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <h5 class="text-center text-light">محصولات پرفروش</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 product-category-items">
+                        <div class="product-category-item">
+                            <img src="assets/img/popular4.png" class="img-fluid" title="محصول" alt="محصول" />
+                            <p class="text-center gray-color">OCT 17221 T</p>
+                            <p class="text-center gray-color">30,231,142 ریال</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-opearation">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-retweet"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 product-category-items">
+                        <div class="product-category-item">
+                            <img src="assets/img/popular3.png" class="img-fluid" title="محصول" alt="محصول" />
+                            <p class="text-center gray-color">OCT 17221 T</p>
+                            <p class="text-center gray-color">30,231,142 ریال</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-opearation">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-retweet"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 product-category-items">
+                        <div class="product-category-item">
+                            <img src="assets/img/popular2.png" class="img-fluid" title="محصول" alt="محصول" />
+                            <p class="text-center gray-color">OCT 17221 T</p>
+                            <p class="text-center gray-color">30,231,142 ریال</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-opearation">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-retweet"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 product-category-items">
+                        <div class="product-category-item">
+                            <img src="assets/img/popular1.png" class="img-fluid" title="محصول" alt="محصول" />
+                            <p class="text-center gray-color">OCT 17221 T</p>
+                            <p class="text-center gray-color">30,231,142 ریال</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-opearation">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-retweet"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="product-find">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-10 m-auto product-find-section">
+                        <h5 class="text-center gray-color">صندلی مناسب خود را بیابید</h5>
+                        <div class="product-find-button">
+                            <a class="btn red-bg text-light" hre="#" title="کاربری خانگی">کاربری خانگی</a>
+                            <a class="btn red-bg text-light" hre="#" title="کاربری اداری">کاربری اداری</a>
+                        </div>
+                        <p>&nbsp;</p>
+                        <img src="assets/img/product-find.png" class="img-fluid" title="محصول" alt="محصول" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="blogs">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 blogs-items">
+                        <div class="blogs-item">
+                            <p class="text-center red-color">مقالات ارگونومی </p>
+                            <img src="assets/img/blog2.png" class="img-fluid post-image" title="وبلاگ" alt="وبلاگ" />
+                            <a class="gray-color" href="#" title="مطالعه بیشتر">مطالعه بیشتر</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 blogs-items">
+                        <div class="blogs-item">
+                            <img src="assets/img/product-blog.png" class="img-fluid" title="محصول" alt="محصول" />
+                        </div>
+                    </div>
+
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 blogs-items">
+                        <div class="blogs-item">
+                            <p class="text-center red-color">مقالات دکوراسیون داخلی</p>
+                            <img src="assets/img/blog1.png" class="img-fluid post-image" title="وبلاگ" alt="وبلاگ" />
+                            <a class="gray-color" href="#" title="مطالعه بیشتر">مطالعه بیشتر</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <h4 class="gold-color">دفتر مرکزی</h4>
+                        <p class="text-light">تهران، شهرک قدس، خیابان گلبرگ سوم، خیابان شهید لطفعلی کردستانی(گلرخ)، پلاک ۱۱۱، طبقه ششم</p>
+                        <p class="gold-color">کارخانه</p>
+                        <p class="text-light">تهران، شهرک قدس، خیابان گلبرگ سوم، خیابان شهید لطفعلی کردستانی(گلرخ)، پلاک ۱۱۱، طبقه ششم</p>
+                        <p><span class="gold-color">تلفن مرکز خدمات پس از فروش:</span> <span class="text-light" dir="ltr">۰۲۱-۸۲۷۵۱</span></p>
+                        <p><span class="gold-color">صدای مشتری:</span> <span class="text-light" dir="ltr">۰۲۱-۸۲۷۵۰-۱۳</span></p>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                        <h4 class="text-light text-center">شبکه های اجتماعی</h4>
+                        <div class="social-media">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="social-media">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-solid fa-video"></i>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5" dir="ltr">
+                        <h4 class="text-light">دسترسی سریع به صفحات</h4>
+                        <ul class="text-light">
+                            <li>
+                                <a class="text-light" href="#" title="درباره ما">درباره ما</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="#" title="تماس با نیلپر">تماس با نیلپر</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="#" title="قوانین گارانتی">قوانین گارانتی</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="#" title="سوالات متداول">سوالات متداول</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="#" title="فرصت های شغلی">فرصت های شغلی</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="#" title="کاتالوگ محصولات نیلپر">کاتالوگ محصولات نیلپر</a>
+                            </li>
+                            <li>
+                                <a class="text-light" href="#" title="بخش اداری">بخش اداری</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=" https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
+    <script type="text/javascript " src="assets/bootstrap/js/bootstrap.min.js "></script>
+    <script type="text/javascript " src="assets/bootstrap/js/bootstrap.bundle.min.js "></script>
 </body>
+
 </html>
